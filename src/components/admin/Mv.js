@@ -58,7 +58,7 @@ function getSorting(order, orderBy) {
 const rows = [
     
     { id: 'authID', numeric: false, disablePadding: true, label: 'ID' },
-    // { id: 'companyName', numeric: false, disablePadding: false, label: 'COMPANY' },
+    { id: 'companyName', numeric: false, disablePadding: false, label: 'COMPANY' },
     { id: 'phoneNumber', numeric: false, disablePadding: false, label: 'PHONE' },
     { id: 'email', numeric: false, disablePadding: false, label: 'E-MAIL' },
     { id: 'coverAreas', numeric: false, disablePadding: false, label: 'COVERAREA' },
@@ -358,7 +358,7 @@ class EnhancedTable extends React.Component {
                                                 <Checkbox checked={isSelected} />
                                             </TableCell>
                                             <TableCell component="th" scope="row" padding="none">{n.authID}</TableCell>
-                                            {/* <TableCell align="left">{n.companyName}</TableCell> */}
+                                            <TableCell align="left">{n.companyName}</TableCell>
                                             <TableCell align="left">{n.phoneNumber}</TableCell>
                                             <TableCell align="left">{n.email}</TableCell>
                                             <TableCell align="left">{n.coverAreas.map(coverArea => coverArea.areaID.name)}</TableCell>

@@ -37,7 +37,7 @@ class SimpleBottomNavigation extends React.Component {
         >
           <BottomNavigationAction component={Link} to="/" label="Home" value="home" icon={<Icon>folder</Icon>} className={classes.content}/>
           <BottomNavigationAction component={Link} to="/Mv" label="Company's info" value="Mv" icon={<Icon>folder</Icon>} className={classes.content}/>
-          <BottomNavigationAction component={Link} to="/Balance" label="Balance" value="Balance" icon={<Icon>folder</Icon>} className={classes.content}/>
+          <BottomNavigationAction component={Link} to="/AdminBalanceList" label="Balance" value="Balance" icon={<Icon>folder</Icon>} className={classes.content}/>
           <BottomNavigationAction component={Link} to="/Settings" label="Settings" value="Settings" icon={<Icon>folder</Icon>} className={classes.content}/>
         </BottomNavigation>
       </div>
